@@ -1,3 +1,4 @@
+import MultiStepForm from "../projects/multi-step-form";
 import ProgressBar from "../projects/progress-bar";
 
 const projectsConfig = [
@@ -6,12 +7,8 @@ const projectsConfig = [
     component: ProgressBar,
   },
   {
-    title: "Progress Bar",
-    component: ProgressBar,
-  },
-  {
-    title: "Progress Bar",
-    component: ProgressBar,
+    title: "Multi Step Form",
+    component: MultiStepForm,
   },
 ];
 
