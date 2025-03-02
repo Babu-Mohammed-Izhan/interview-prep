@@ -66,15 +66,7 @@ const MultiStepForm = () => {
       <div>Multi Step Form</div>
       <div style={{ display: "flex" }}>
         {formConfig.map((c, index) => {
-          return (
-            <Tab
-              tabName={c.name}
-              isActive={index === activeTab}
-              onClick={() => {
-                setActiveTab(index);
-              }}
-            />
-          );
+          return <Tab tabName={c.name} isActive={index === activeTab} />;
         })}
       </div>
 
